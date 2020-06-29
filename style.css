@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+   
+}
+nav{
+    padding: 20px;
+    border-bottom: 1px solid blue; 
+    background: rgba(0, 0, 0, 0.2)
+}
+nav div{
+    text-align: right;
+}
+nav div a{
+    color: white
+    font-size: 10px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+header{
+    padding: 20px;
+    border-bottom: 1px solid blue; 
+    background: rgba(0, 0, 0, 0.2)
+}
+header div{
+    text-align: center;
+}
+header div a{
+    color: white
+    font-size: 10px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+    
+}
+header div a:hover{
+    color: royalblue;
+    transition: color 250ms;
+}
